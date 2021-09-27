@@ -18,14 +18,14 @@ class MainButton extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20),
       child: Container(
-        height: SizeConfig.blockSizeH! * 12,
+        height: SizeConfig.blockSizeH! * 15,
         width: double.infinity,
         child: RaisedButton(
           child: Text(name, style: TextStyle(color: Colors.white, fontSize: 17.0),),
           onPressed: onPressed,
           color: PrimaryColor,
           shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20.0)
+              borderRadius: BorderRadius.circular(30.0)
           ),
         ),
       ),
