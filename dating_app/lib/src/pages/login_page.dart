@@ -55,7 +55,7 @@ class _LoginPageState extends State<LoginPage> {
                   MainButton(
                       name: 'Sign in',
                       onPressed: () {
-
+                          Navigator.pushNamed(context, "main_page");
                       }
                   ),
                   SizedBox(height: sizeV * 2,),
