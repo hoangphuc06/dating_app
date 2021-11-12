@@ -1,4 +1,5 @@
 import 'package:delivery_app/routes.dart';
+import 'package:delivery_app/src/colors/colors.dart';
 import 'package:delivery_app/src/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 

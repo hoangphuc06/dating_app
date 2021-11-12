@@ -19,7 +19,7 @@ class _MainPageState extends State<MainPage> {
     LikesTab(),
     ChatTab(),
     AccountTab(),
-    ];
+  ];
 
   int _selectedItemIndex = 0;
 

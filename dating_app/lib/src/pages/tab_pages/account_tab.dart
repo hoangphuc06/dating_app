@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
 
 class AccountTab extends StatefulWidget {
+
+  const AccountTab({ Key? key }) : super(key: key);
+
   @override
   _AccountTabState createState() => _AccountTabState();
 }
